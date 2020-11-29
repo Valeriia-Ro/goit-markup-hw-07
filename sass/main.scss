@@ -1,15 +1,15 @@
 @import "./utils/variables";
 @import "./base/base";
-@import "./components/header";
+@import "./layouts/header";
 @import "./components/logo";
-@import "./components/hero";
-@import "./components/features-section";
-@import "./components/to-do-section";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/pflo-btn.scss";
-@import "./components/pflo-pictures";
-@import "./components/footer";
+@import "./layouts/hero";
+@import "./layouts/features-section";
+@import "./layouts/to-do-section";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./components/pflo-btn";
+@import "./layouts/pflo-pictures";
+@import "./layouts/footer";
 @import "./components/backdrop";
 @import "./components/form";
 

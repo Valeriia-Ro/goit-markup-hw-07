@@ -55,7 +55,7 @@
     line-height:  1.14em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-text-color);
+    color: $title-text-color;
     margin-top:  0;
     margin-bottom: 10px;
 }
@@ -68,6 +68,6 @@
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
-    color: var(--p-text-color);
+    color: $p-text-color;
     margin: 0;
 }

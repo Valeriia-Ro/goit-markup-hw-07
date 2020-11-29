@@ -1,34 +1,11 @@
 .footer {
-    background-color: var(--bg-color);
+    background-color: $bg-color;
 }
 
 .foot-content {
     padding-top: 60px;
     padding-bottom: 60px;
     height: 252px;
-}
-
-.logo-footer-sec {
-    text-decoration: none;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19em;
-    letter-spacing: 0.03em;
-    color: var(--white-color);
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-.logo-footer-first {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19em;
-    letter-spacing: 0.03em;
-    color:var(--highlight-color);
 }
 
 .adress {
@@ -38,7 +15,7 @@
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
-    color: var(--white-color);
+    color: $white-color;
     margin-top: 20px;
     margin-bottom: 9px;
 }
@@ -65,7 +42,7 @@
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.03em;
-    color: var(--white-color);
+    color: $white-color;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -92,21 +69,21 @@
     align-items: center;
     width: 44px;
     height: 44px;
-    color:var(--white-color);
+    color:$white-color;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-    transition: background-color var(--animation);
+    transition: background-color $animation;
+
+    &:hover,
+    &:focus {
+    background: $highlight-color;
+    }   
 }
 
 .footer-icon-svg {
     width: 20px;
     height: 20px;
     fill: currentColor;
-}
-
-.footer-icon-link:hover,
-.footer-icon-link:focus {
-    background: var(--highlight-color);
 }
 
 .comment {
@@ -159,7 +136,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    color: var(--white-color);
+    color: $white-color;
     letter-spacing: 0.06em;
     margin: 0;
     padding: 0; 

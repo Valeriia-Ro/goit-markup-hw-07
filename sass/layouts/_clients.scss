@@ -1,5 +1,5 @@
 .clients-bgc {
-    background-color: var(--white-color);
+    background-color: $white-color;
 }
 
 .clients {
@@ -13,19 +13,24 @@
 
 .icon-clients {
     fill: currentColor;
-    transition: fill var(--animation);
+    transition: fill $animation;
 }
 
 .icon-link {
     display: flex;
-    color: var(--svg-cl);
+    color: $svg-cl;
     width: 170px;
     height: 90px;
-    border: 1px solid var(--svg-cl);
+    border: 1px solid $svg-cl;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
-    transition: border var(--animation);
+    transition: border $animation;
+
+    &:hover,
+    &:focus {
+    border: 1px solid $highlight-color;
+    }
 }
 .icon-link:last-child {
     margin-right: 0;
@@ -33,12 +38,9 @@
 
 .icon-link:hover .icon-clients,
 .icon-link:focus .icon-clients {
-    color: var(--highlight-color);
+    color: $highlight-color;
 }
-.icon-link:hover,
-.icon-link:focus {
-    border: 1px solid var(--highlight-color);
-}
+
 
 .icon-item:not(:last-child) {
     margin-right: 30px;
