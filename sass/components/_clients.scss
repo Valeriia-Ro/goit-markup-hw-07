@@ -1,0 +1,45 @@
+.clients-bgc {
+    background-color: var(--white-color);
+}
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-logo {
+    display: flex;
+}
+
+.icon-clients {
+    fill: currentColor;
+    transition: fill var(--animation);
+}
+
+.icon-link {
+    display: flex;
+    color: var(--svg-cl);
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--svg-cl);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    transition: border var(--animation);
+}
+.icon-link:last-child {
+    margin-right: 0;
+}
+
+.icon-link:hover .icon-clients,
+.icon-link:focus .icon-clients {
+    color: var(--highlight-color);
+}
+.icon-link:hover,
+.icon-link:focus {
+    border: 1px solid var(--highlight-color);
+}
+
+.icon-item:not(:last-child) {
+    margin-right: 30px;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--white-color);  
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;    
+}
+
+.link:hover,
+.link:focus{
+    color:  var(--highlight-color);
+}
+
+.content {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    /* outline: 2px solid tomato; */
+    margin-right: auto;
+    margin-left: auto;
+}
